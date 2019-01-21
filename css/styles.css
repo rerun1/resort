@@ -1,0 +1,422 @@
+/* guardian Egyption - in master fonts folder — adapted from guss fonts @ github for prototyping */
+@font-face {
+  font-family: 'GuardianEgyptianWeb';
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Light.eot');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Light.eot?#iefix') format('eot'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Light.woff2') format('woff2'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Light.woff') format('woff'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Light.ttf') format('truetype');
+  font-weight: 300;/* Eygptian Light */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GuardianEgyptianWeb';
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Regular.eot');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Regular.eot?#iefix') format('eot'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Regular.woff2') format('woff2'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Regular.woff') format('woff'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'GuardianEgyptianWeb';
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-RegularItalic.eot');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-RegularItalic.eot?#iefix') format('eot'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-RegularItalic.woff2') format('woff2'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-RegularItalic.woff') format('woff'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-RegularItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'GuardianEgyptianWeb';
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Medium.eot');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Medium.eot?#iefix') format('eot'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Medium.woff2') format('woff2'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Medium.woff') format('woff'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'GuardianEgyptianWeb';
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Semibold.eot');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Semibold.eot?#iefix') format('eot'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Semibold.woff2') format('woff2'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Semibold.woff') format('woff'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'GuardianEgyptianWeb';
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-SemiboldItalic.eot');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-SemiboldItalic.eot?#iefix') format('eot'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-SemiboldItalic.woff2') format('woff2'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-SemiboldItalic.woff') format('woff'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-SemiboldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'GuardianEgyptianWeb';
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Bold.eot');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-Bold.eot?#iefix') format('eot'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Bold.woff2') format('woff2'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Bold.woff') format('woff'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'GuardianEgyptianWeb';
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-BoldItalic.eot');
+  src : url('../fonts/eygptianWeb/GuardianEgyptianWeb-BoldItalic.eot?#iefix') format('eot'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-BoldItalic.woff2') format('woff2'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-BoldItalic.woff') format('woff'),
+        url('../fonts/eygptianWeb/GuardianEgyptianWeb-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/* End Eygption Guardian Web Font from github */
+/* freight display light*/
+@font-face {
+  font-family: 'freight-display-pro';
+  src : url('../fonts/freight/freightDisplayLight.eot');
+  src : url('../fonts/freight/freightDisplayLight.eot?#iefix') format('eot'),
+        url('../fonts/freight/freightDisplayLight.woff2') format('woff2'),
+        url('../fonts/freight/freightDisplayLight.woff') format('woff'),
+        url('../fonts/freight/freightDisplayLight.ttf') format('truetype');
+  font-weight: 300; /* freight display light from typekit */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/*freight*/
+/* Journal - handwriting - in master fonts folder couldn't convert to woff2 */
+@font-face{
+  font-family : 'handwriting';
+  src : url('../fonts/journalHand/journal-webfont.eot');
+  src : url('../fonts/journalHand/journal-webfont.eot?#iefix') format('eot'),
+        url('../fonts/journalHand/journal-webfont.woff') format('woff'),
+        url('../fonts/journalHand/journal.ttf') format('truetype');
+  font-weight: normal;
+  font-style: cursive;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/* end freight */
+
+/*begin tisa*/
+@font-face {
+  font-family: 'ff-tisa-web-pro';
+  src : url('../fonts/tisa/tisaReg.eot');
+  src : url('../fonts/tisa/tisaReg.eot?#iefix') format('eot'),
+        url('../fonts/tisa/tisaReg.woff2') format('woff2'),
+        url('../fonts/tisa/tisaReg.woff') format('woff'),
+        url('../fonts/tisa/tisaReg.ttf') format('truetype');
+  font-weight: 400;/* tisa sans regular */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ff-tisa-web-pro';
+  src : url('../fonts/tisa/tisaRegIt.eot');
+  src : url('../fonts/tisa/tisaRegIt.eot?#iefix') format('eot'),
+        url('../fonts/tisa/tisaRegIt.woff2') format('woff2'),
+        url('../fonts/tisa/tisaRegIt.woff') format('woff'),
+        url('../fonts/tisa/tisaRegIt.ttf') format('truetype');
+  font-weight: 400;/* tisa sans regular italic*/
+  font-style: italic;
+  font-variant: normal;
+}
+@font-face {
+  font-family: 'ff-tisa-web-pro';
+  src : url('../fonts/tisa/tisaBold.eot');
+  src : url('../fonts/tisa/tisaBold.eot?#iefix') format('eot'),
+        url('../fonts/tisa/tisaBold.woff2') format('woff2'),
+        url('../fonts/tisa/tisaBold.woff') format('woff'),
+        url('../fonts/tisa/tisaBold.ttf') format('truetype');
+  font-weight: 700;/* tisa sans bold */
+  font-style: bold;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ff-tisa-web-pro';
+  src : url('../fonts/tisa/tisaBoldIt.eot');
+  src : url('../fonts/tisa/tisaBoldIt.eot?#iefix') format('eot'),
+        url('../fonts/tisa/tisaBoldIt.woff2') format('woff2'),
+        url('../fonts/tisa/tisaBoldIt.woff') format('woff'),
+        url('../fonts/tisa/tisaBoldIt.ttf') format('truetype');
+  font-weight: 700;/* tisa sans bold italic */
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/*begin tisa*/
+@font-face {
+  font-family: 'ff-tisa-sans-web-pro';
+  src : url('../fonts/tisa/tisaSansReg.eot');
+  src : url('../fonts/tisa/tisaSansReg.eot?#iefix') format('eot'),
+        url('../fonts/tisa/tisaSansReg.woff2') format('woff2'),
+        url('../fonts/tisa/tisaSansReg.woff') format('woff'),
+        url('../fonts/tisa/tisaSansReg.ttf') format('truetype');
+  font-weight: 400;/* tisa sans regular */
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ff-tisa-sans-web-pro';
+  src : url('../fonts/tisa/tisaSansRegIt.eot');
+  src : url('../fonts/tisa/tisaSansRegIt.eot?#iefix') format('eot'),
+        url('../fonts/tisa/tisaSansRegIt.woff2') format('woff2'),
+        url('../fonts/tisa/tisaSansRegIt.woff') format('woff'),
+        url('../fonts/tisa/tisaSansRegIt.ttf') format('truetype');
+  font-weight: 400;/* tisa sans regular italic*/
+  font-style: italic;
+  font-variant: normal;
+}
+@font-face {
+  font-family: 'ff-tisa-sans-web-pro';
+  src : url('../fonts/tisa/tisaSansBold.eot');
+  src : url('../fonts/tisa/tisaSansBold.eot?#iefix') format('eot'),
+        url('../fonts/tisa/tisaSansBold.woff2') format('woff2'),
+        url('../fonts/tisa/tisaSansBold.woff') format('woff'),
+        url('../fonts/tisa/tisaSansBold.ttf') format('truetype');
+  font-weight: 700;/* tisa sans bold */
+  font-style: bold;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'ff-tisa-sans-web-pro';
+  src : url('../fonts/tisa/tisaSansBoldIt.eot');
+  src : url('../fonts/tisa/tisaSansBoldIt.eot?#iefix') format('eot'),
+        url('../fonts/tisa/tisaSansBoldIt.woff2') format('woff2'),
+        url('../fonts/tisa/tisaSansBoldIt.woff') format('woff'),
+        url('../fonts/tisa/tisaSansBoldIt.ttf') format('truetype');
+  font-weight: 700;/* tisa sans bold italic */
+  font-style: italic;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/*end tisa*/
+/* main element styles */
+body {
+    font-feature-settings: "liga" 1;
+    font-size: 30px;
+    line-height: 1;
+    color: black;
+    margin: 0 1em;
+    padding: 0;
+}
+
+@supports (font-variant-ligatures: common-ligatures) {
+    body {
+        font-feature-settings: normal;
+        font-variant-ligatures: common-ligatures;
+    }
+}
+
+ul {
+  list-style-type: none;
+  padding: 0 2em 0 0;
+  margin: 0 0 2.5em 0;
+}
+ul:last-of-type {
+  padding:0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: .75em;
+  margin: .25em 0;
+  color: #660000;
+  outline: none;
+}
+a:hover {
+  color: #b30000;
+}
+h1 {
+  margin: .5em 0 .5em -.125em;
+  padding: 0;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+h3 {
+  margin: .125em 0;
+  padding:0;
+  text-align: left;
+}
+p {
+  margin: .75em 0;
+  padding: 0;
+  text-align: left;
+}
+hr {
+  margin: -.125em 0 .75em  0;
+}
+
+/* global styles for type*/
+.caps {
+  font-variant-caps: all-small-caps;
+  letter-spacing: .02em;
+  margin: 1em 0 3em 0;
+}
+.minusXLtrsp {
+  letter-spacing: -.07em;
+}
+.minusLtrsp {
+  letter-spacing: -.02em;
+}
+.ltrsp {
+  letter-spacing: .1em;
+}
+.lessltrsp {
+  letter-spacing: .03em;
+}
+.noltrsp {
+  letter-spacing: 0em;
+}
+/* Begin styles for fonts in alpha order by family */
+/* guardian typeface from github */
+.egyption {
+  font-family: 'GuardianEgyptianWeb', serif;
+  font-variant: normal;
+  letter-spacing: .01em;
+  word-spacing: .02em;
+}
+.egyptionLight {
+  font-style: normal;
+  font-weight: 300;
+}
+.egyptionReg {
+  font-style: normal;
+  font-weight: 400;
+}
+.egyptionRegItalic {
+  font-style: italic;
+  font-weight: 400;
+}
+.egyptionMed {
+  font-style: normal;
+  font-weight: 500;
+}
+.egyptionSemi {
+  font-style: normal;
+  font-weight: 600;
+}
+.egyptionSemiItalic {
+  font-style: italic;
+  font-weight: 600;
+}
+.egyptionBold {
+  font-style: normal;
+  font-weight: 700;
+}
+.egyptionBoldItalic {
+  font-style: italic;
+  font-weight: 700;
+}
+/* End Egyption classes */
+/* freight display */
+.freightDisplay {
+  font-family: 'freight-display-pro', serif;
+  font-variant: normal;
+}
+.freightDisplayLight {
+  font-style: normal;
+  font-weight: 300;
+}
+/*endFreight*/
+/* begin tisa */
+.tisa {
+  font-family: 'ff-tisa-web-pro', serif;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+}
+.tisaReg {
+  font-style: normal;
+  font-weight: 400;
+}
+.tisaRegItalic {
+  font-style: italic;
+  font-weight: 400;
+}
+.tisaBold {
+  font-style: normal;
+  font-weight: 700;
+}
+.tisaBoldItalic {
+  font-style: italic;
+  font-weight: 700;
+}
+.tisaSans {
+  font-family: 'ff-tisa-sans-web-pro', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+}
+.tisaSansReg {
+  font-style: normal;
+  font-weight: 400;
+}
+.tisaSansRegItalic {
+  font-style: italic;
+  font-weight: 400;
+}
+.tisaSansBold {
+  font-style: normal;
+  font-weight: 700;
+}
+.tisaSansBoldItalic {
+  font-style: italic;
+  font-weight: 700;
+}
+/* end tisa */
