@@ -238,14 +238,19 @@
   font-display: swap;
 }
 /*end tisa*/
+
 /* main element styles */
 body {
-    font-feature-settings: "liga" 1;
-    font-size: 30px;
-    line-height: 1;
-    color: black;
-    margin: 0 1em;
-    padding: 0;
+  font-family: 'ff-tisa-web-pro', serif;
+  font-style: normal;
+  font-weight: 400;
+  background: url("../img/mainTahiti.jpg") top left / 100% 100% no-repeat rgba(47,204,203,1.0);
+  font-feature-settings: "liga" 1;
+  font-size: 30px;
+  line-height: 1;
+  color: rgba(100,43,27,1.0);
+  margin: 6em 2em 0em 2em;
+  padding: 0;
 }
 
 @supports (font-variant-ligatures: common-ligatures) {
@@ -254,39 +259,38 @@ body {
         font-variant-ligatures: common-ligatures;
     }
 }
-
 ul {
+  font-size: .75em;
+  font-weight: 700;
   list-style-type: none;
-  padding: 0 2em 0 0;
-  margin: 0 0 2.5em 0;
+  margin: 0 1em;
+  padding: 0 0;
 }
-ul:last-of-type {
-  padding:0;
-}
-
 li {
   margin: 0;
-  padding: 0;
+  padding: 0 0 .5em 0;
 }
 a {
-  display: inline-block;
   text-decoration: none;
-  font-size: .75em;
   margin: .25em 0;
-  color: #660000;
+  color: rgba(100,43,27,1.0);
   outline: none;
 }
 a:hover {
-  color: #b30000;
+  color: rgba(100,43,27,0.75);
 }
 h1 {
-  margin: .5em 0 .5em -.125em;
+  font-family: 'ff-tisa-web-pro', serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
   padding: 0;
 }
 h2 {
   margin: 0;
   padding: 0;
-  text-align: left;
+  text-align: right;
 }
 h3 {
   margin: .125em 0;
@@ -298,8 +302,70 @@ p {
   padding: 0;
   text-align: left;
 }
-hr {
-  margin: -.125em 0 .75em  0;
+img {
+  width: 30%;
+  margin: 1em 1% 0% 1%;
+  padding: 0;
+  border: 1px solid rgba(100,43,27,1.0);
+}
+.center-children {
+  text-align: center;
+}
+@media only all and (max-width: 1320px) {
+  body {
+    background: url("../img/mainTahiti.jpg") top left / 1320px 452px no-repeat rgba(47,204,203,1.0);
+    margin: 6em 4em 0em 2em;
+  }
+  h1 {
+    text-align: right;
+    margin: 0 .25em 1em 0;
+  }
+}
+@media only all and (max-width: 1067px) {
+  body {
+    background: url("../img/mainTahiti.jpg") top left / 1067px 350px no-repeat rgba(47,204,203,1.0);
+    margin: 5em 4em 0em 1em;
+  }
+  h1 {
+    font-size: 1.75em;
+    margin: 0 0 1em 0;
+  }
+}
+@media only all and (max-width: 900px) {
+  body {
+    background: url("../img/mainTahiti.jpg") top left / 900px 308px no-repeat rgba(47,204,203,1.0);
+    margin: 4em 2em 0em 2em;
+  }
+  h1 {
+    font-size: 1.5em;
+    margin: 0 2em 1em 0;
+  }
+}
+@media only all and (max-width: 816px) {
+  body {
+    background: url("../img/mainTahiti.jpg") top left / 800px 290px no-repeat rgba(47,204,203,1.0);
+    margin: 6.5em 1em 0em 1em;
+  }
+  h1 {
+    font-size: 1.5em;
+    margin: 0 0 0 0;
+    text-align: center;
+  }
+}
+@media only all and (max-width: 600px) {
+  body {
+    background: url("../img/mainTahiti.jpg") top left / 700px 240px no-repeat rgba(47,204,203,1.0);
+  }
+  h1 {
+    font-size: 1.5em;
+    margin: 0 0 0 0;
+  }
+  img {
+    width: 100%;
+    margin: 1em 1% 1% 1%;
+    padding: 0;
+    border: 1px solid rgba(100,43,27,1.0);
+  }
 }
 
 /* global styles for type*/
@@ -324,56 +390,6 @@ hr {
   letter-spacing: 0em;
 }
 /* Begin styles for fonts in alpha order by family */
-/* guardian typeface from github */
-.egyption {
-  font-family: 'GuardianEgyptianWeb', serif;
-  font-variant: normal;
-  letter-spacing: .01em;
-  word-spacing: .02em;
-}
-.egyptionLight {
-  font-style: normal;
-  font-weight: 300;
-}
-.egyptionReg {
-  font-style: normal;
-  font-weight: 400;
-}
-.egyptionRegItalic {
-  font-style: italic;
-  font-weight: 400;
-}
-.egyptionMed {
-  font-style: normal;
-  font-weight: 500;
-}
-.egyptionSemi {
-  font-style: normal;
-  font-weight: 600;
-}
-.egyptionSemiItalic {
-  font-style: italic;
-  font-weight: 600;
-}
-.egyptionBold {
-  font-style: normal;
-  font-weight: 700;
-}
-.egyptionBoldItalic {
-  font-style: italic;
-  font-weight: 700;
-}
-/* End Egyption classes */
-/* freight display */
-.freightDisplay {
-  font-family: 'freight-display-pro', serif;
-  font-variant: normal;
-}
-.freightDisplayLight {
-  font-style: normal;
-  font-weight: 300;
-}
-/*endFreight*/
 /* begin tisa */
 .tisa {
   font-family: 'ff-tisa-web-pro', serif;
