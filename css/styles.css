@@ -186,65 +186,19 @@
   font-stretch: normal;
   font-display: swap;
 }
-/*begin tisa*/
-@font-face {
-  font-family: 'ff-tisa-sans-web-pro';
-  src : url('../fonts/tisa/tisaSansReg.eot');
-  src : url('../fonts/tisa/tisaSansReg.eot?#iefix') format('eot'),
-        url('../fonts/tisa/tisaSansReg.woff2') format('woff2'),
-        url('../fonts/tisa/tisaSansReg.woff') format('woff'),
-        url('../fonts/tisa/tisaSansReg.ttf') format('truetype');
-  font-weight: 400;/* tisa sans regular */
-  font-style: normal;
-  font-variant: normal;
-  font-stretch: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'ff-tisa-sans-web-pro';
-  src : url('../fonts/tisa/tisaSansRegIt.eot');
-  src : url('../fonts/tisa/tisaSansRegIt.eot?#iefix') format('eot'),
-        url('../fonts/tisa/tisaSansRegIt.woff2') format('woff2'),
-        url('../fonts/tisa/tisaSansRegIt.woff') format('woff'),
-        url('../fonts/tisa/tisaSansRegIt.ttf') format('truetype');
-  font-weight: 400;/* tisa sans regular italic*/
-  font-style: italic;
-  font-variant: normal;
-}
-@font-face {
-  font-family: 'ff-tisa-sans-web-pro';
-  src : url('../fonts/tisa/tisaSansBold.eot');
-  src : url('../fonts/tisa/tisaSansBold.eot?#iefix') format('eot'),
-        url('../fonts/tisa/tisaSansBold.woff2') format('woff2'),
-        url('../fonts/tisa/tisaSansBold.woff') format('woff'),
-        url('../fonts/tisa/tisaSansBold.ttf') format('truetype');
-  font-weight: 700;/* tisa sans bold */
-  font-style: bold;
-  font-variant: normal;
-  font-stretch: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'ff-tisa-sans-web-pro';
-  src : url('../fonts/tisa/tisaSansBoldIt.eot');
-  src : url('../fonts/tisa/tisaSansBoldIt.eot?#iefix') format('eot'),
-        url('../fonts/tisa/tisaSansBoldIt.woff2') format('woff2'),
-        url('../fonts/tisa/tisaSansBoldIt.woff') format('woff'),
-        url('../fonts/tisa/tisaSansBoldIt.ttf') format('truetype');
-  font-weight: 700;/* tisa sans bold italic */
-  font-style: italic;
-  font-variant: normal;
-  font-stretch: normal;
-  font-display: swap;
-}
-/*end tisa*/
+
 /* main element styles */
 body {
+    font-family: 'GuardianEgyptianWeb', serif;
+    font-variant: normal;
+    font-style: normal;
+    font-weight: 300;
+    background: url("../img/mainIceland.jpg") top left / 100% 100% no-repeat rgba(47,204,203,1.0);
     font-feature-settings: "liga" 1;
     font-size: 30px;
     line-height: 1;
-    color: black;
-    margin: 0 1em;
+    color: rgba(100,43,27,1.0);
+    margin: 6em 2em 0em 2em;
     padding: 0;
 }
 
@@ -257,22 +211,22 @@ body {
 
 ul {
   list-style-type: none;
-  padding: 0 2em 0 0;
-  margin: 0 0 2.5em 0;
+  padding: 0;
+  margin: 0;
 }
-ul:last-of-type {
-  padding:0;
-}
-
 li {
   margin: 0;
   padding: 0;
 }
+li::before {
+  content: "..."
+  padding: 0 .5em 0 0;
+}
 a {
   display: inline-block;
   text-decoration: none;
-  font-size: .75em;
-  margin: .25em 0;
+  margin: 0;
+  padding: 0;
   color: #660000;
   outline: none;
 }
@@ -280,21 +234,11 @@ a:hover {
   color: #b30000;
 }
 h1 {
-  margin: .5em 0 .5em -.125em;
-  padding: 0;
-}
-h2 {
   margin: 0;
   padding: 0;
-  text-align: left;
-}
-h3 {
-  margin: .125em 0;
-  padding:0;
-  text-align: left;
 }
 p {
-  margin: .75em 0;
+  margin: 0;
   padding: 0;
   text-align: left;
 }
@@ -374,49 +318,3 @@ hr {
   font-weight: 300;
 }
 /*endFreight*/
-/* begin tisa */
-.tisa {
-  font-family: 'ff-tisa-web-pro', serif;
-  font-weight: normal;
-  font-style: normal;
-  font-variant: normal;
-}
-.tisaReg {
-  font-style: normal;
-  font-weight: 400;
-}
-.tisaRegItalic {
-  font-style: italic;
-  font-weight: 400;
-}
-.tisaBold {
-  font-style: normal;
-  font-weight: 700;
-}
-.tisaBoldItalic {
-  font-style: italic;
-  font-weight: 700;
-}
-.tisaSans {
-  font-family: 'ff-tisa-sans-web-pro', sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-variant: normal;
-}
-.tisaSansReg {
-  font-style: normal;
-  font-weight: 400;
-}
-.tisaSansRegItalic {
-  font-style: italic;
-  font-weight: 400;
-}
-.tisaSansBold {
-  font-style: normal;
-  font-weight: 700;
-}
-.tisaSansBoldItalic {
-  font-style: italic;
-  font-weight: 700;
-}
-/* end tisa */
