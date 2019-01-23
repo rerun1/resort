@@ -142,10 +142,28 @@ body {
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
-    background: url("../img/mainIceland.jpg") top center / auto auto no-repeat rgba(20,5,24,1.0);
+    /* background-image: url("../img/mainIceland.jpg"), linear-gradient(to top, rgba(81,108,91,1.0), rgba(81,108,91,0.0));
+    background-position: top left, top left;
+    background-size: 1000px auto, 100% 100%;
+    background-repeat:no-repeat; */
+    /* background: url("../img/mainTahiti.jpg") top left / 100% 100% no-repeat rgba(47,204,203,1.0); */
+
+    /* background: url("../img/mainIceland.jpeg"), linear-gradient(to top, rgba(81,108,91,1.0), rgba(81,108,91,0.0)); */
     color: rgba(64,10,44,1.0);
-    margin: 2em 2em 0em 2em;
+    margin: 0;
     padding: 0;
+}
+.iceland {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/mainIceland.png"), linear-gradient(to top, rgba(81,108,91,1.0), rgba(81,108,91,0.9), rgba(81,108,91,0.85), rgba(81,108,91,0.1));
+  background-position: bottom left, top left;
+  background-size: 100% auto, 100% auto;
+  background-repeat:no-repeat;
+  padding: 1em 2em 0 1em;
 }
 @supports (font-variant-ligatures: common-ligatures) {
     body {
@@ -217,16 +235,10 @@ p {
   letter-spacing: 0em;
 }
 @media only all and (max-width: 1320px) {
-  body {
-    background: url("../img/mainIceland.jpg") top center / 1320px auto no-repeat rgba(20,5,24,1.0);
-  }
 }
 @media only all and (max-width: 1067px) {
 }
 @media only all and (max-width: 900px) {
-  body {
-    background: url("../img/mainIceland.jpg") top center / 1200px auto no-repeat rgba(20,5,24,1.0);
-  }
 }
 @media only all and (max-width: 816px) {
 }
