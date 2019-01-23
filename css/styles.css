@@ -157,11 +157,23 @@ body {
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
   background-image: url("../img/mainIceland.png"), linear-gradient(to top, rgba(81,108,91,1.0), rgba(81,108,91,0.9), rgba(81,108,91,0.85), rgba(81,108,91,0.1));
   background-position: bottom left, top left;
   background-size: 100% auto, 100% auto;
+  background-repeat:no-repeat;
+  padding: 1em 2em 0 1em;
+}
+.icelandGallery {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  background-image: linear-gradient(to top, rgba(81,108,91,1.0), rgba(81,108,91,0.9), rgba(81,108,91,0.85), rgba(81,108,91,0.1));
+  background-position: top left;
+  background-size:100% auto;
   background-repeat:no-repeat;
   padding: 1em 2em 0 1em;
 }
@@ -210,8 +222,14 @@ h1 {
 }
 p {
   margin: 0 0 0 .25em;
-  padding: 0;
+  padding: 0 2em 0 0;
   text-align: left;
+}
+img {
+  width: 30%;
+  height: auto;
+  margin: 1em .25em 0 .125em;
+  border: 1px solid rgba(64,10,44,1.0);
 }
 /* global styles for type*/
 .caps {
@@ -242,7 +260,13 @@ p {
 }
 @media only all and (max-width: 816px) {
 }
-@media only all and (max-width: 600px) {
+@media only all and (max-width: 570px) {
+  img {
+    width: 95%;
+    height: auto;
+    margin: 1em .25em 0 .125em;
+    border: 1px solid rgba(64,10,44,1.0);
+  }
 }
 
 /* Begin styles for fonts in alpha order by family */
